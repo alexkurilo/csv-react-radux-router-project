@@ -1,0 +1,96 @@
+div.app{
+  padding: 20px;
+  background-size: 100%;
+  height: 100%;
+  max-height: 100%;
+  width: 95%;
+  border: 3px solid #BEBEBE;
+  border-radius: 10px;
+  background-color: #BEBEBE;
+  display: flex;
+}
+.enteredWindow{
+  width: 40%;
+}
+
+.api{
+  background-color: #D3D3D3;
+  margin: 0 0 10px 10px;
+  padding: 5px;
+  width: 90%;
+  border: 3px solid #BEBEBE;
+  border-radius: 10px;
+}
+.api input{
+  margin: 5px;
+}
+
+div.separatorsWindow{
+  text-align: center;
+  padding: 5px;
+  width: 90%;
+  border: 3px solid #BEBEBE;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 10px;
+}
+div.separatorsWindow h4{
+  margin: 5px 5px 0px 5px;
+}
+div.separatorsBlock {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  }
+
+div.separatorBlock{
+  background-color: #D3D3D3;
+  width: 90%;
+  /*border: 1px solid black;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.radioButton{
+  font-size: 30px;
+  margin: 5px;
+}
+.separatorName img{
+  height: 15px;
+}
+
+div.History{
+  background-color: #D3D3D3;
+  padding: 5px;
+  border: 1px solid black;
+  width: 90%;
+  border: 3px solid #BEBEBE;
+  border-radius: 10px;
+  margin: 10px 0 0 10px;
+}
+
+li.liHistory{
+  list-style: none;
+}
+
+.tableWindow{
+  background-color: #D3D3D3;
+  padding: 5px;
+  width: 55%;
+  border: 3px solid #BEBEBE;
+  border-radius: 10px;
+}
+.tableWindow table{
+  border: 1px solid black;
+  text-align: center;
+  border-spacing : 0;
+}
+.tableWindow td{
+  padding: 2px;
+  border: 1px solid black;
+}
